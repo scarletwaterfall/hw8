@@ -337,6 +337,16 @@
     </div>
   </div>
 </div>
+  <script>
+    window.onload = (function() {
+ $('.block')
+    if ($(document).scrollTop() > 0) {
+        document.querySelector('header').addClass("animate");
+    } else {
+        document.querySelector('header').removeClass("animate");
+    }
+});
+  </script>
 </body>
 
 </html>
