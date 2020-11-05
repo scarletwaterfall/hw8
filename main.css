@@ -59,6 +59,9 @@ header nav li:first-child{
 header nav li:last-child{
   margin-right: 100px;
 }
+.animate{
+  background:black;
+}
 /*---Hero Section---*/
 
 .hero{
